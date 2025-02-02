@@ -15,7 +15,7 @@ public:
             vector<int>& nums = testcases[i].first;
             bool output = testcases[i].second;
             bool result = sol.check(nums);
-            cout << "TestCase " << i+1 << ": " << ((result == output) ? "passed":"result") << endl;
+            cout << "TestCase " << i+1 << ": " << ((result == output) ? "passed":"failed") << endl;
         }
     }
 };
