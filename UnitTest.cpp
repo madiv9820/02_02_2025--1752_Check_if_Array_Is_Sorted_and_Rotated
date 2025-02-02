@@ -19,3 +19,8 @@ public:
         }
     }
 };
+
+int main() {
+    UnitTest test;
+    test.test();
+}
